@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637824535226956458
-    m_Hash: 2687147865
+      ticks: 637824575413124287
+    m_Hash: 4287022099
   m_LockFileStatus:
     m_FilePath: C:/Users/PC/Desktop/8 Semestre/Motor Avanz/Proyecto/SixoClock/SixoClock/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637824535227021515
-    m_Hash: 1447121980
+      ticks: 637824575413134459
+    m_Hash: 2986814770
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
