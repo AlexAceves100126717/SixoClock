@@ -1,0 +1,287 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 130986 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/PC/Desktop/8 Semestre/Motor Avanz/Proyecto/SixoClock/SixoClock
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1033
+Successfully changed project path to: C:/Users/PC/Desktop/8 Semestre/Motor Avanz/Proyecto/SixoClock/SixoClock
+C:/Users/PC/Desktop/8 Semestre/Motor Avanz/Proyecto/SixoClock/SixoClock
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/8 Semestre/Motor Avanz/Proyecto/SixoClock/SixoClock/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   30.0.15021.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002738 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1668ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1390ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (753ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.2 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2659.
+Total: 4.299900 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.081800 ms MarkObjects: 3.764300 ms  DeleteObjects: 0.213900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/Barricada1.fbx
+  artifactKey: Guid(7704f0a57c26a174883a6495f5433c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Barricada1.fbx using Guid(7704f0a57c26a174883a6495f5433c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f383bd9c45b268c118c78fc85066e401') in 0.208295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/torreta2_1.fbx
+  artifactKey: Guid(782dd7089531e6046982fa3f283ce5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/torreta2_1.fbx using Guid(782dd7089531e6046982fa3f283ce5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb6c9e3172085fb1c50a7a43e27b77') in 0.044381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Models/torreta (1).fbx
+  artifactKey: Guid(3d763046c41a94e409d2874013b40ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/torreta (1).fbx using Guid(3d763046c41a94e409d2874013b40ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9b1e93ccc8a5fc1cf95091f001a8a1') in 0.031365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.692409 seconds.
+  path: Assets/Models/Alien
+  artifactKey: Guid(c8151de104b25ae41a93ca44f50cb644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alien using Guid(c8151de104b25ae41a93ca44f50cb644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11800b24d0b225efcd9b8b27d426439d') in 0.008096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047815 seconds.
+  path: Assets/Models/Alien/Alien_Hit.fbx
+  artifactKey: Guid(2bcc62acf25450b48ad9b215ae7d5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alien/Alien_Hit.fbx using Guid(2bcc62acf25450b48ad9b215ae7d5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8689a72df73d658e2b2c9aee6ce449f4') in 0.013401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Models/Alien/caminadoAnimBones.fbx
+  artifactKey: Guid(8af5328326e71dc4387dd9f27e964d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alien/caminadoAnimBones.fbx using Guid(8af5328326e71dc4387dd9f27e964d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd6482bc402230db0412d4e8995a192') in 0.013911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/Alien/Alien_Idle.fbx
+  artifactKey: Guid(69889f122aa2f1b4a8e7ac7d685cae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alien/Alien_Idle.fbx using Guid(69889f122aa2f1b4a8e7ac7d685cae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de40d1b2196fbd5b5bc3ce0b2ae6d11e') in 0.015249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Models/Alien/AlienModel2.fbx
+  artifactKey: Guid(c5d7f2c2ce18ebb4a96e15fc3d08bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alien/AlienModel2.fbx using Guid(c5d7f2c2ce18ebb4a96e15fc3d08bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc89a4fe747ae68245f6523a7a732cd') in 0.533988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.322443 seconds.
+  path: Assets/Materials/Alien
+  artifactKey: Guid(10f13f884705b0645936d8315337a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien using Guid(10f13f884705b0645936d8315337a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b3c21550aed367aee7293e7c355faf') in 0.004091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.866823 seconds.
+  path: Assets/Materials/Alien/Ojos
+  artifactKey: Guid(3fa12e05e7e368b47875d1bb55ff89da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos using Guid(3fa12e05e7e368b47875d1bb55ff89da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dd95b0aa344a1d5d960384c2923073') in 0.008147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054869 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_BaseColor.1001.png
+  artifactKey: Guid(d57ba9a07593c3b429828c7886fea99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_BaseColor.1001.png using Guid(d57ba9a07593c3b429828c7886fea99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c7ecc75eb4dcda4b8c9c54cf2ab26') in 0.040068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Normal.1001.png
+  artifactKey: Guid(78f430187fb039b4abc69a9ceeaede0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Normal.1001.png using Guid(78f430187fb039b4abc69a9ceeaede0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9670f682edae824ec2e6c5d5e18aa6') in 0.028895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Height.1001.png
+  artifactKey: Guid(2df7d3d9710954a4692fbf0932b78842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Height.1001.png using Guid(2df7d3d9710954a4692fbf0932b78842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437299daca212f2e93eb800d23c5dac8') in 0.014532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Emissive.1001.png
+  artifactKey: Guid(6a05d59f8c7ae9c49ae3dbf14c1a3344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Emissive.1001.png using Guid(6a05d59f8c7ae9c49ae3dbf14c1a3344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7ae430f9186b4ecebbbd12638ffd4a') in 0.014205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Roughness.1001.png
+  artifactKey: Guid(3667c5d3b7d117e44b34b895b27d61ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Roughness.1001.png using Guid(3667c5d3b7d117e44b34b895b27d61ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7569e80f884473f9fe299c8f29a73a19') in 0.011793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Metallic.1001.png
+  artifactKey: Guid(104c140b71323064a8afdaeb6de9e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_Metallic.1001.png using Guid(104c140b71323064a8afdaeb6de9e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84afa57e9a9b963346241244902edd47') in 0.013772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Materials/Alien/Ojos/Ojos.mat
+  artifactKey: Guid(dfac26fa50f4b4b45b850b716c48afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Ojos.mat using Guid(dfac26fa50f4b4b45b850b716c48afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12f2744d8aa37fc351ba57537bc5a6d') in 0.036207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_BaseColor2.1001.png
+  artifactKey: Guid(c901045e5f71478408f7c91f9650ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Ojos/Alien Ojos F Uvs_lambert1_BaseColor2.1001.png using Guid(c901045e5f71478408f7c91f9650ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b673741f805997876c9ef94b0c9298d8') in 0.016186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.608818 seconds.
+  path: Assets/Materials/Alien/Body
+  artifactKey: Guid(188f050951acd67469cfbbb7f6684a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body using Guid(188f050951acd67469cfbbb7f6684a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb1892cc429d250859e9c3e5eb5df78') in 0.008299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047738 seconds.
+  path: Assets/Materials/Alien/Body/Alien F Uvs_lambert1_BaseColor.1001.png
+  artifactKey: Guid(e04bb78111bcacd4e90a51b2cac714fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Alien F Uvs_lambert1_BaseColor.1001.png using Guid(e04bb78111bcacd4e90a51b2cac714fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c858e2c3007a5c5833879e4adbed2a0f') in 0.013828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Roughness.1001.png
+  artifactKey: Guid(68a27e28564d4ea47a0e245b6e4f18c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Roughness.1001.png using Guid(68a27e28564d4ea47a0e245b6e4f18c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d209ca139ddf465706063e9b896aab') in 0.016164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Metallic.1001.png
+  artifactKey: Guid(4bf477d7d716ef44cbb302bf741b2ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Metallic.1001.png using Guid(4bf477d7d716ef44cbb302bf741b2ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b565ee08b9f128d9edb6f13861d6c1') in 0.014030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Emissive.1001.png
+  artifactKey: Guid(52c5518d1a4a6954f94a31c6d98c0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Emissive.1001.png using Guid(52c5518d1a4a6954f94a31c6d98c0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f228138666690d6012c9ad1ad3fc1a9') in 0.014115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/Alien/Body/Body.mat
+  artifactKey: Guid(a2b957082de20c2478a02f074cef796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Body.mat using Guid(a2b957082de20c2478a02f074cef796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c41515aeef00890f1b7383491cf13') in 0.023536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Normal.1001.png
+  artifactKey: Guid(9567d839306c38e408ec0a4dba1a6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Normal.1001.png using Guid(9567d839306c38e408ec0a4dba1a6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654d43b8b16e52cbd14ae6b9c19dc5ea') in 0.018697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Height.1001.png
+  artifactKey: Guid(f52aafa9f1f48e54da108553be525a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alien/Body/Alien F Uvs_lambert1_Height.1001.png using Guid(f52aafa9f1f48e54da108553be525a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559dca1ccfbe767d31fccca1037babf8') in 0.013525 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
