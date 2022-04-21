@@ -12,8 +12,13 @@ public class MenuManager : MonoBehaviour
             SceneManager.LoadScene(1);
         }
 
-        // Update is called once per frame
-        public void BotonQuit()
+    public void BotonCreditos()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    // Update is called once per frame
+    public void BotonQuit()
         {
             Debug.Log("Quitamos la Aplicacion");
             Application.Quit();
