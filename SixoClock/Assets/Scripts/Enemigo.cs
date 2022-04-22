@@ -16,12 +16,12 @@ public class Enemigo : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider collision)
+    /*void OnTriggerEnter(Collider collision)
     {
         if (collision.tag == "Player")
         {
             Destroy(gameObject);
             Debug.Log("Mataste a tu enemigo");
         }
-    }
+    }*/
 }
