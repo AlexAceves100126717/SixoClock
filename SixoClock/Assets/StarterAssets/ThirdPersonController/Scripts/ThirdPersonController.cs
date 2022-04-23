@@ -14,6 +14,7 @@ namespace StarterAssets
 #endif
 	public class ThirdPersonController : MonoBehaviour
 	{
+        private SoundManager soundManager;
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 2.0f;
@@ -93,6 +94,7 @@ namespace StarterAssets
 
 		private void Awake()
 		{
+            soundManager = FindObjectOfType<SoundManager>();
 			// get a reference to our main camera
 			if (_mainCamera == null)
 			{
@@ -314,5 +316,17 @@ namespace StarterAssets
 			// when selected, draw a gizmo in the position of, and matching radius of, the grounded collider
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
-	}
+        void OnTriggerEnter(Collider collision)
+        {
+            if (collision.tag == "Star")
+            {
+                Debug.Log("Aumentaste Velocidad");
+                MoveSpeed = 6.0f;
+                SprintSpeed = 10.0f;
+                soundManager.SeleccionAudio(0, 0.5f);
+            }
+        }
+    }
+    
+    
 }

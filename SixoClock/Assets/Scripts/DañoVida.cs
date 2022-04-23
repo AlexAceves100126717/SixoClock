@@ -5,7 +5,7 @@ using UnityEngine;
 public class DañoVida : MonoBehaviour
 {
     VidaPlayer playerVida;
-
+    private SoundManager soundManager;
     public int cantidad;
     public float damageTime;
     float currentDamageTime;
@@ -15,7 +15,11 @@ public class DañoVida : MonoBehaviour
     {
         playerVida = GameObject.FindWithTag("Player").GetComponent<VidaPlayer>();
     }
+    private void Awake()
+    {
+        soundManager = FindObjectOfType<SoundManager>();
 
+    }
     private void OnTriggerStay(Collider other)
     {
         if (other.tag=="Player")
@@ -25,6 +29,7 @@ public class DañoVida : MonoBehaviour
             {
                 playerVida.vida += cantidad;
                 currentDamageTime=0.0f;
+                soundManager.SeleccionAudio(1, 0.5f);
             }
         }
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class AumentoVida : MonoBehaviour
 {
     VidaPlayer playerVida;
-
+    private SoundManager soundManager;
     public int cantidad;
     public float damageTime;
     float currentDamageTime;
@@ -15,7 +15,11 @@ public class AumentoVida : MonoBehaviour
     {
         playerVida = GameObject.FindWithTag("Player").GetComponent<VidaPlayer>();
     }
-
+    private void Awake()
+    {
+        soundManager = FindObjectOfType<SoundManager>();
+       
+    }
     private void OnTriggerStay(Collider other)
     {
         if (other.tag=="Player")
@@ -34,6 +38,7 @@ public class AumentoVida : MonoBehaviour
        {
            Destroy(gameObject);
            Debug.Log("Aumentaste Vida");
-       }
+           soundManager.SeleccionAudio(0, 0.5f);
+        }
    }
 }
