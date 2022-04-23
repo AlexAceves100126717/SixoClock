@@ -14,6 +14,7 @@ namespace StarterAssets
 #endif
 	public class ThirdPersonController : MonoBehaviour
 	{
+
         private SoundManager soundManager;
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
@@ -326,7 +327,5 @@ namespace StarterAssets
                 soundManager.SeleccionAudio(0, 0.5f);
             }
         }
-    }
-    
-    
+	}
 }
