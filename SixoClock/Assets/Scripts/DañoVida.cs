@@ -31,7 +31,7 @@ public class DañoVida : MonoBehaviour
             currentDamageTime += Time.deltaTime;
             if (currentDamageTime>damageTime)
             {
-                playerVida.vida += cantidad;
+                playerVida.Health += cantidad;
                 currentDamageTime=0.0f;
                 GameOver();
                 soundManager.SeleccionAudio(1, 0.5f);

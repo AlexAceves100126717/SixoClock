@@ -27,7 +27,7 @@ public class AumentoVida : MonoBehaviour
             currentDamageTime += Time.deltaTime;
             if (currentDamageTime>damageTime)
             {
-                playerVida.vida += cantidad;
+                playerVida.Health += cantidad;
                 currentDamageTime=0.0f;
             }
         }
